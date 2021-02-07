@@ -68,3 +68,4 @@ wait_tasks = asyncio.wait(tasks)
 loop.run_until_complete(wait_tasks)
 loop.close()
 Session.remove()
+
